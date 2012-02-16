@@ -1,5 +1,5 @@
 Rails.application.config.middleware.use OmniAuth::Builder do
-  provider :SAML, {
+  provider :saml, {
     :assertion_consumer_service_url => "http://...",
     :issuer                         => "https://...",
     :idp_sso_target_url             => "https://...",

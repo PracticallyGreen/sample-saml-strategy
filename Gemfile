@@ -1,12 +1,12 @@
 source 'http://rubygems.org'
 
-gem 'rails', '3.1.0.rc4'
+gem 'rails', '3.1.2'
 gem 'sqlite3'
-gem 'sass-rails', "~> 3.1.0.rc"
+gem 'sass-rails', "~> 3.1.2"
 gem 'uglifier'
 gem 'jquery-rails'
-gem 'uuid'
-gem 'omniauth', :git => 'https://github.com/raecoo/omniauth.git'
+gem 'omniauth'
+gem 'omniauth-saml'
 
 group :development do
   gem 'ruby-debug19'
