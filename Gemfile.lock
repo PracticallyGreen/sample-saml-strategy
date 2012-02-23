@@ -59,7 +59,7 @@ GEM
     omniauth (1.0.2)
       hashie (~> 1.2)
       rack
-    omniauth-saml (0.9.0)
+    omniauth-saml (0.9.1)
       XMLCanonicalizer (~> 1.0.1)
       omniauth (~> 1.0)
       uuid (~> 2.3)
