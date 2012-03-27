@@ -1,8 +1,6 @@
 source 'http://rubygems.org'
 
-gem 'rails', '3.1.2'
-gem 'sqlite3'
-gem 'sass-rails', "~> 3.1.2"
+gem 'rails', '3.2.8'
 gem 'uglifier'
 gem 'jquery-rails'
 gem 'omniauth'
@@ -10,6 +8,8 @@ gem 'omniauth-saml'
 
 group :development do
   gem 'ruby-debug19'
+  gem 'heroku'
+  gem 'sqlite3'
 end
 
 group :production do
