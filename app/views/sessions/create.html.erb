@@ -1,5 +1,6 @@
 <p style='color:green'><%= flash[:notice] %></p>
 <p>
   Auth provider: <%= @provider %><br/>
-  UID: <%= @uid %>
+  UID: <%= @uid %><br/>
+  OmniAuth: <%= request.env['omniauth.auth'].to_hash.inspect %>
 </p>
